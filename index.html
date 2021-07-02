@@ -1,0 +1,63 @@
+<html><head>
+    <meta charset="euc-kr">
+    <title> 배너만들기 과제</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+     a.banner{
+         margin:0 auto;
+         position:relative;
+         display:block;
+         overflow:hidden;
+         width:600px;height:176px;
+         border:1px solid #ddd;
+         background:url(images/poster.png) no-repeat 0 0,
+                    url(images/se2.gif) 180px no-repeat;
+         font-family: 'Finger Paint', cursive;font-size:1em;
+         text-shadow:1px 1px 1px #333333;	
+         }
+         
+     .logo{position:absolute;display:block;
+             width:366px;height:100px;
+             top:20px;right:20px;z-index:2;
+            background:url(images/logo.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            animation:xman ease-in-out 10.7s 99;
+            -webkit-animation:xman ease-in-out 10.7s 99;
+            font-family: Jua;
+            font-size: small;
+            }
+     strong{
+        position: absolute;
+        right: 30px;
+        bottom: 10px;font-family: 'Jua', cursive;
+             }
+     a{		
+        text-decoration: none;
+        color: #fff}
+     
+    @keyframes xman{
+            0%{right:-765px}
+            9%{right:25px}		
+            10%{right:20px}
+            100%{}
+        }	
+    @-webkit-keyframes xman{
+            0%{right:-765px}
+            9%{right:25px}		
+            10%{right:20px }
+            100%{}
+        }		
+    </style>
+    </head>
+    
+    <body>
+    <a href="http://www.imdb.com/title/tt1300854/" class="banner">
+      <div class="logo">영원한 99즈의<br>
+        찐우정의 이야기</div>
+      <strong>매주 목요일 밤 9시</strong>
+    </a>
+    
+    
+    
+    </body></html>
